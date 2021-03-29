@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmergentSoftwareCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,7 +14,6 @@ namespace EmergentSoftwareProject.Content
         {
             if (!IsPostBack)
             {
-                // Init controls
                 InitializeControls();
             }
         }
@@ -31,14 +31,14 @@ namespace EmergentSoftwareProject.Content
         #region Utilities
         private void SetSoftwareDataList(string filter)
         {
-            //Tuple<bool, IEnumerable<SoftwareSearch>> filteredSoftwareSearchReturn = SoftwareManager.GetFilteredSoftwareSearch(filter);
+            Tuple<bool, IEnumerable<SoftwareSearch>> filteredSoftwareSearchReturn = SoftwareManager.GetFilteredSoftwareSearch(filter);
 
-         //   if (!filteredSoftwareSearchReturn.Item1)
-          //      SetFilterMessage("Invalid filter.  Format:<br>[Number].[Number].[Number]");
-          //  else
-            //    ClearFilterMessage();
+            if (!filteredSoftwareSearchReturn.Item1)
+                SetFilterMessage("Invalid filter.  Format:<br>[Number].[Number].[Number]");
+            else
+                ClearFilterMessage();
 
-            //dlSoftware.DataSource = filteredSoftwareSearchReturn.Item2;
+            dlSoftware.DataSource = filteredSoftwareSearchReturn.Item2;
             dlSoftware.DataBind();
         }
         private void ClearFilterMessage()
