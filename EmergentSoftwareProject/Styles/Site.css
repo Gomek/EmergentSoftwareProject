@@ -1,0 +1,142 @@
+﻿.attributesButtonGrey {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    background-color: #949494;
+    transform: translateY(-10px);
+}
+
+.attributesScrollableSoftwareList {
+    overflow-y: auto;
+    height: 200px;
+    width: 430px;
+}
+
+
+.bgLightGrey {
+    background-color: #E8E8E8;
+}
+
+.colorDarkBlue {
+    color: darkblue;
+}
+
+.colorDarkGreen {
+    color: darkgreen;
+}
+
+.colorRed {
+    color: red;
+}
+
+.dim_35 {
+    width: 35px;
+    height: 35px;
+}
+
+.dim_65 {
+    width: 65px;
+    height: 65px;
+}
+
+
+.displayBox, .displayBoxPadded {
+    border: 1px solid #c7baba;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+    z-index: 1;
+    position: relative;
+}
+
+.displayBoxPadded {
+    padding: 20px;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.iconLightbulb {
+    background-image: url(../../Images/Lightbulb.jpg);
+    background-size: cover;
+}
+
+
+.marginBottom_5 {
+    margin-bottom: 5px;
+}
+
+.marginBottom_10 {
+    margin-bottom: 10px;
+}
+
+.marginBottom_20 {
+    margin-bottom: 20px;
+}
+
+.marginBottom_50 {
+    margin-bottom: 50px;
+}
+
+.marginLeft_200 {
+    margin-left: 200px;
+}
+
+.marginRight_10 {
+    margin-right: 10px;
+}
+
+.marginRight_20 {
+    margin-right: 20px;
+}
+
+.marginTop_100 {
+    margin-top: 100px;
+}
+
+.moveElementUp_7 {
+    transform: translateY(-7px);
+}
+
+.text_18 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text_25 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text_40 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.text_60 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text_75 {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.width_200 {
+    width: 200px;
+}
+
+.width_700 {
+    width: 700px;
+}
